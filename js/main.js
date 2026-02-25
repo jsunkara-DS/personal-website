@@ -15,7 +15,7 @@ const CONFIG = {
     typingSpeed: 100,
     deleteSpeed: 50,
     pauseDuration: 2000,
-    scrollOffset: 80,
+    scrollOffset: 100,
     animationThreshold: 0.1
 };
 

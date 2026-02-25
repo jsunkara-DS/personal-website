@@ -7,6 +7,53 @@
     font-family: 'Inter', sans-serif;
 }
 
+/* Section Spacing Fixes */
+section {
+    position: relative;
+    z-index: 1;
+    scroll-margin-top: 80px;
+}
+
+/* Add spacing between sections */
+section + section {
+    margin-top: 0;
+}
+
+/* Navigation z-index fix */
+nav {
+    z-index: 1000;
+}
+
+/* Hero section specific fixes */
+#home {
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+/* About section spacing */
+#about {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+/* Skills section spacing */
+#skills {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+/* Projects section spacing */
+#projects {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+/* Contact section spacing */
+#contact {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
 /* Gradient Effects */
 .gradient-text {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
